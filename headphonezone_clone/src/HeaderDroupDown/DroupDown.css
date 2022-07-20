@@ -1,0 +1,44 @@
+.CategoriesDoupDown-main{
+    display: flex;
+    flex-direction:column;
+    font-size: 11px;
+    /* height: 40vh; */
+}
+.CategoriesDoupDown-div-first{
+    display: flex;
+    padding: 3rem 7rem 0 7rem;
+    margin-left: 1rem;
+}
+.droupdown-bar{
+    padding: 1rem;
+    margin-left: 1.5rem;
+}
+.droup-p{
+    width: 90px;
+}
+.CategoriesDoupDown-div-second{
+    display: flex;
+    padding: 0 7rem 0 7rem;
+    margin-left: 1rem;
+}
+ /* Brand Droup Down */
+.price{
+    display: flex;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    flex-direction: column;
+}
+.price>a {
+    margin-top: 0.5rem;
+}
+
+.Brand-droupDown{
+    display: flex;
+    padding:2rem 4rem 1rem;
+}
+.Brand-droupDown>div {
+    margin-left: 4rem;
+}
+.Brand-droupDown>div>ul>li{
+    margin-top: 0.5rem;
+}

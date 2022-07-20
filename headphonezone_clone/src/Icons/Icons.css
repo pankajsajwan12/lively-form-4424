@@ -1,0 +1,44 @@
+.header_logo-image{
+    width: 150px;
+    height: 40px;
+}
+.head-10 {
+    opacity: 0;
+    animation: hideshow 10s 9s ease infinite;
+}
+.head-9 {
+    opacity: 0;
+    animation: hideshow 10s 8s ease infinite;
+}
+.head-8 {
+    opacity: 0;
+    animation: hideshow 10s 7s ease infinite;
+}
+.head-7 {
+    opacity: 0;
+    animation: hideshow 10s 6s ease infinite;
+}
+.head-6 {
+    opacity: 0;
+    animation: hideshow 10s 5s ease infinite;
+}
+.head-5 {
+    opacity: 0;
+    animation: hideshow 10s 4s ease infinite;
+}
+.head-4 {
+    opacity: 0;
+    animation: hideshow 10s 3s ease infinite;
+}
+.head-3 {
+    opacity: 0;
+    animation: hideshow 10s 2s ease infinite;
+}
+.head-2 {
+    opacity: 0;
+    animation: hideshow 10s 1s ease infinite;
+}
+.head-1 {
+    opacity: 0;
+    animation: hideshow 10s 0s ease infinite;
+}
