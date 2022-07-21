@@ -4,7 +4,6 @@
     padding: 1.2rem 2.5rem;
    display: flex;
    margin:auto;
-   /* border: 1px solid red; */
    background-color: #F9F9F9;
    font-family: Roboto, sans-serif;
    font-weight: 600;
@@ -31,6 +30,7 @@
 /* --------------------droupdown menu---------------------------- */
 .categories-dropdown-content{
   display: none;
+  background-color: #F9F9F9;
   position: absolute;
   left:0;
   top:4.9rem;
@@ -61,6 +61,7 @@
     display: block;
 }
 .price-droupDown-content{
+    background-color: #F9F9F9;
     display: none;
     position: absolute;
     /* left:0; */
@@ -78,6 +79,7 @@
     display: block;
 }
 .deal-droupDown-content{
+    background-color: #F9F9F9;
     display: none;
     position: absolute;
     /* left:0; */
@@ -97,7 +99,7 @@
     display: none;
     position: absolute;
     left:0;
-    top:5rem;
+    top:4.9rem;
     width: 100%;
     height:500px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);

@@ -8,7 +8,6 @@ function App() {
     <div className="App">
      <Headers/>
      <AllRoutes />
-     <div style={{height:'50vh'}}></div>
      <Footer />
     </div>
   );
