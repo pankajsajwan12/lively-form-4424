@@ -1,0 +1,42 @@
+.Login_main{
+    width: 100%;
+}
+.social_media_icons_button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    padding: 2rem;
+}
+.facebook_icons{
+ width: 40px;
+ height: 25px;
+ background-color: skyblue;
+ border-radius: 42%;
+ border: 1px solid skyblue;
+ padding: 0.3rem;
+ padding-left: 0.7rem;
+}
+.icons{
+    height: 30px;
+    width: 140px;
+    display: flex;
+    background-color: skyblue;
+    border-radius: 1rem 1rem 1rem 1rem;
+    margin-left: 0.8rem;
+}
+.sliding_name_login{
+    display: flex;
+    justify-content: center;
+}
+.custmore_div{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+.Login_text{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}

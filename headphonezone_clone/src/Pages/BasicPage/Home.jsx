@@ -1,8 +1,13 @@
 import React from 'react'
+import HomeAudioPhile from '../HomeImageSildeShow/HomeAudioPhile'
+import TopSlideShow from '../HomeImageSildeShow/TopSlideShow'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <TopSlideShow />
+      <HomeAudioPhile />
+    </div>
   )
 }
 

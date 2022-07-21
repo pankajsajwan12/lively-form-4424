@@ -13,6 +13,8 @@ import Search from '../Pages/BasicPage/Search'
 import Account from '../Pages/BasicPage/Account'
 import Info from '../Pages/BasicPage/Info'
 import Price from '../Pages/BasicPage/Price'
+import LogoutPage from '../Pages/Login/LogoutPage'
+import LoginPage from '../Pages/Login/LoginPage'
 
 const AllRoutes = () => {
   return (
@@ -30,6 +32,8 @@ const AllRoutes = () => {
         <Route path="/account" element={<Account />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/price" element={<Price />} />
+        <Route path="/login"  element={<LoginPage />} />
+        <Route path="/logout" element={<LogoutPage />} />
     </Routes>
   )
 }
