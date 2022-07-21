@@ -3,6 +3,7 @@
     width: 100%;
     padding: 1.2rem 2.5rem;
    display: flex;
+   margin:auto;
    /* border: 1px solid red; */
    background-color: #F9F9F9;
    font-family: Roboto, sans-serif;
