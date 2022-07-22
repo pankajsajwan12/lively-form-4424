@@ -1,14 +1,34 @@
+/* @media  (min-width: 1350px) and (max-width: 1550px) {
+    .Nav{
+        width: 100%;
+        border: 1px solid black;
+    }
+    .header-mid-menu{
+        margin-left: 7rem;
+        border: 1px solid greenyellow;
+    }
+    .header-mid-menu>div {
+        border: 1px solid greenyellow;
+    }
+    .header-left-menu{
+        margin-left: 4rem;
+    }
+    .header-left-menu > div {
+        margin-left: 2.2rem;
+    }
+} */
 .Nav{
     /* height:60px ; */
     width: 100%;
     padding: 1.2rem 2.5rem;
    display: flex;
+   justify-content: space-evenly;
    margin:auto;
    background-color: #F9F9F9;
    font-family: Roboto, sans-serif;
    font-weight: 600;
    font-size: 14px;
-   /* position: relative; */
+
 }
 .header-mid-menu{
     display: flex;

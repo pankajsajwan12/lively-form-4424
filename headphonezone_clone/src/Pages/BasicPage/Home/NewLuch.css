@@ -1,0 +1,303 @@
+.newLucnh_Main_div{
+    width:100%;
+    height: 44rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.newLuch_firsdiv{
+    border-radius: 1rem;
+    border: 1px solid white;
+    margin-left: 2rem;
+    flex: 1;
+    height: 500px;
+    background-image: url("https://cdn.shopify.com/s/files/1/0153/8863/files/Shanling-UA3_NewArrivalsBanner_500x.jpg?v=1658217171");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.newLunch_SecondDiv{
+    margin:0 1.5rem 0 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid white;
+   
+    flex: 1;
+    height: 500px;
+    background-image: url("https://cdn.shopify.com/s/files/1/0153/8863/files/Fiio_-_M17Pro_NewArrivalsBanner_1_500x.jpg?v=1655193794");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.newLunch_ThridDiv{
+    /* width: 30%; */
+    border-radius: 1rem;
+    border: 1px solid white;
+    margin-right: 2rem;
+    flex: 1;
+    height: 500px;
+    background-image: url("https://cdn.shopify.com/s/files/1/0153/8863/files/64Audio-Duo_NewArrivalsBanner_fdc2eaeb-aa36-4b6a-9e26-d4982f226286_500x.jpg?v=1654680319");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.newLunch_ThridDiv:hover{
+    width: 31%;
+}
+.newLunch_text{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+
+}
+.imageBackground_text{
+   font-weight: 700;
+   margin-bottom: 1rem; 
+   font-size: 13px;
+}
+.text_size{
+    width: 200px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: -0.6rem;
+}
+
+ /* animation is panding */
+
+ .Quize_background_image{
+     margin-top: 4.5rem;
+     width: 100%;
+     height: 44rem;
+     background-image: url("https://cdn.shopify.com/s/files/1/0153/8863/files/Headphone-Finder-New_1400x.jpg?v=1655447696");
+     background-size: cover;
+     background-repeat: no-repeat;
+     backface-visibility: hidden;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .Quize_main_div{
+     width: 31rem;
+     height: 23rem;
+     border-radius: 1rem;
+     border: 1px solid white;
+     background-color: white;
+     
+      display: flex;
+     flex-direction: column;
+     /* justify-content: center; */
+     align-items: center; 
+ }
+ .quiz_bold_text{
+     margin-top: 4.5rem;
+     width: 300px;
+     font-size: 2.2rem;
+     text-align: center;
+     font-weight: 600;
+     line-height: 2.2rem;
+ }
+ .quiz_text{
+     margin-top: 1.5rem;
+     font-size: 0.9rem;
+ }
+ .quiz_button_box{
+    margin-top: 2rem;
+ }
+ .quiz_btn{
+     width: 10.5rem;
+     height: 2.5rem;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    border-radius: 1.5rem;
+ }
+
+ /* //Brand div */
+ .Brand_main-div{
+     width: 100%;
+     /* height: 20rem; */
+     background-color: #E6E6E6;
+     padding: 3rem;
+     
+ }
+ .Brand_text_div{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ .Brand_second_main-div{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+ }
+ .Brand_text_first{
+     font-size: 0.9rem;
+     font-weight: 700;
+ }
+ .Brand_text_Second{
+     font-size: 2rem;
+     font-weight: 750;
+     margin-bottom: 3rem;
+ }
+.brand_div{
+    background-color: white;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    border-radius: 2rem;
+    border: 1px solid white;
+    margin: 2.5rem auto;
+    /* margin-top: 2.5rem;
+    margin */
+}
+ .brand_btn{
+     text-align: center;
+     font-weight: 600;
+     margin-top: 0.5rem;
+ }
+
+ /* Brand Text */
+ .BrandText_main_div{
+     width: 100%;
+     /* border: 1px solid red; */
+     background-color: #F5F5F5;
+     padding-bottom: 2.5rem;
+     
+ }
+
+ .BrandText_main_div_two{
+     width: 100%;
+     padding-top: 3rem;
+     margin-left: 2rem;
+     display: flex;
+     justify-content: center;
+ }
+ .Brand_text_divSecond{
+     margin-left: 64px;
+ }
+ .Brand_text_divThree{
+     width: 100%;
+     padding-top: 2rem;
+     margin-left: 15rem;
+    
+ }
+ .img_div{
+     margin-left: 3rem;
+ }
+ .BrandText_MainText{
+     margin-top: 0.5rem;
+     width: 420px;
+     text-align: justify;
+     font-weight: 650;
+     line-height: 1.9rem;
+     text-transform: uppercase;
+     font-size: 1.7rem;
+ }
+ .BrandText_div{
+     margin-top: 1rem;
+ }
+ 
+
+ /* ---------------Headphone_zone_main_div------------------------ */
+ .Headphone_zone_main_div{
+     padding-top: 4rem;
+     width: 100%;
+     /* height: 41rem; */
+ }
+ .Headphone_zone_sec_div{
+    display: flex;
+}
+ .Headphone_zone_Img_div{
+     width: 500px;
+     height: 500px;
+     z-index: 1;
+     margin-top: 1rem;
+    margin-left: 6rem;
+ }
+ .Headphone_zone_Text_div{
+    background-color: #F5F5F5;
+    margin-left: -8rem;
+    width: 63%;
+    height: 37rem;
+   display: flex;
+   align-items: center;
+ }
+ .Headphone_zone_text_div_text{
+     margin: 0 0 7rem 12rem;
+     /* border: 1px solid red; */
+     
+ }
+ .introducing{
+     margin-bottom: 1.2rem;
+     font-weight: 600;
+ }
+ .zone{
+     width: 300px;
+     text-align: left;
+     font-weight: 700;
+     font-size: 30px;
+     margin-bottom: 2rem;
+ }
+ .para{
+     width: 600px;
+     font-size: 15px;
+     font-weight: 400;
+     /* margin-bottom: 6rem; */
+ }
+ .Headphone_button_div{
+     background-color: blue;
+     width: 10rem;
+     color: white;  
+     border-radius: 1.3rem;
+     margin-top: 2rem;
+ }
+ .btn{
+     margin-left: 0.3rem;
+     padding: 1rem;
+ }
+ 
+
+ .headphoneConnect_main_div{
+     width: 100%;
+    margin-top: 3.5rem;
+ }
+ .headphone_connect_text_div{
+     width: 35rem;
+     margin: auto;
+     text-transform: uppercase;
+     text-align: center;
+     font-size: 2rem;
+     font-weight: 650;
+     line-height: 2.1rem;
+ }
+ .headphoneImg{
+     width: 43.5rem;
+     height: 20rem;
+ }
+ .connect_text{
+     margin-top: 2rem;
+     width: 47rem;
+     text-transform: none;
+     font-weight: 400;
+     font-size: 1rem;
+     line-height: 1.4rem;
+ }
+.headphoneImage_main_div{
+    margin: 3rem 2rem;
+}
+ .headphone_image_div{
+     display: flex;
+ }
+ .headphone_image_div>div{
+    margin-left: 1.5rem;
+}
+.second_div>div{
+    height: 20rem;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+.second_div>div:nth-last-child(2){
+    margin-bottom: 3rem;
+}
+
+
