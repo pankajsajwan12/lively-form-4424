@@ -15,6 +15,7 @@ import Info from '../Pages/BasicPage/Info'
 import Price from '../Pages/BasicPage/Price'
 import LogoutPage from '../Pages/Login/LogoutPage'
 import LoginPage from '../Pages/Login/LoginPage'
+import FullProductDeatils from '../Pages/Products/FullProductDeatils'
 
 const AllRoutes = () => {
   return (
@@ -34,6 +35,7 @@ const AllRoutes = () => {
         <Route path="/price" element={<Price />} />
         <Route path="/login"  element={<LoginPage />} />
         <Route path="/logout" element={<LogoutPage />} />
+        <Route path="/fullProductDeatils" element={<FullProductDeatils />} />
     </Routes>
   )
 }

@@ -300,4 +300,274 @@
     margin-bottom: 3rem;
 }
 
+ /* ---------------------------------- HeadphoneZoneMinBrands -------------------------------------------*/
 
+.HeadphoneZone_main_div{
+    background-color: rgb(230,230,230,0.6);
+}
+.icons_quote{
+    width: 100px;
+    height: 100px;
+    /* background-color: rgb(230,230,230); */
+    color: rgba(230,230,230,0.9);
+    /* z-index: 1; */
+}
+.icons_quote_div{
+    margin-top:  2rem;
+    display: flex;
+    justify-content: center;
+}
+.icons_quote_text_div{
+    font-size: 1.7rem;
+    font-weight: 650;
+    width: 42rem;
+    margin: auto;
+    line-height: 2rem;
+}
+.Headphone_zone_sec_div{
+    margin-top: 4rem;
+    padding-bottom: 4.5rem;
+    justify-content: center;
+    
+}
+.Headphone_zone_sec_div>div{
+    margin-left: 4rem;
+    width:7rem;
+    height:3.6rem;   
+}
+
+.OurValues_main_Div{
+    width: 100%;
+    background-color: rgb(214,207,249);
+}
+.flexDiv{
+    display: flex;
+}
+.flexDiv>div{
+    align-items: center;
+    margin-left: 2.9rem;
+    padding-bottom: 1.9rem;
+}
+.OurValue_main_Div_innerDiv{
+    flex-direction: column;
+    padding-top: 4rem;
+}
+.value_font{
+    font-size: 1.7rem;
+    font-weight: 650;
+   align-self: center;
+}
+.font_text{
+    width: 12.5rem;
+    font-size: 13px;
+    font-weight: 650;
+    text-align: center;
+    line-height: 1.2rem;
+}
+.number{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 650;
+    padding-bottom: 1rem;
+}
+.background_color{
+    background-color: black;
+    height: 25rem;
+   z-index: 1;
+}
+.backgrund_color_center{
+    display: flex;
+}
+.background_img{
+  margin-top: 6rem;
+  margin-left: 7rem;
+}
+.club_text_div{
+    color: white;
+    padding-top: 3.9rem;
+    width: 40rem;
+    margin-left: 10rem;
+}
+.club_text_div_font{
+    font-size: 2rem;
+    font-weight: 700;
+    width: 23rem;
+    text-transform: uppercase;
+    text-align: left;
+}
+.club_text_small_font{
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    width: 38rem;
+}
+.club_button_div{
+    margin-top: 2rem;
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 1rem;
+    background-color: yellow;
+    color: black;
+   
+}
+.club_btn{
+    margin:0.4rem 1.2rem;
+    font-weight: 600;
+}
+
+.subscribe_background_image{
+    width: 100%;
+    height: 30rem;
+    background-image: url("https://cdn.shopify.com/s/files/1/0153/8863/files/Headphone-Zone-Newsletter_2000x.jpg?v=1643375292");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.subscribe_whiteBackground{
+    width: 32rem;
+    background-color: white;
+    height: 18rem;
+    margin-top: 1rem;
+    margin-left: 7rem;
+}
+.subscribe_h1_text{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.p_text{
+    width: 27rem;
+    text-align: left;
+    margin-top: 2rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 3rem;
+}
+.Input{
+    border:1px solid black;
+    width: 18rem;
+    height: 2.5rem;
+    padding-left: 0.5rem;
+    border-radius: 1rem;
+}
+.subscribe_btn{
+    width: 7rem;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    color: white;
+    padding-left: 1rem;
+    height: 2.5rem;
+    background-color: blue;
+}
+.Everyday_inner_c2{
+    display: flex;
+    justify-content: center;
+}
+.Everyday_inner_c2_image ,.Everyday_inner_c2_right_imgae{
+    display: grid;
+    grid-template-columns: repeat(2,13rem);
+    gap: 1rem;
+    margin-left: 1rem;
+}
+.background_img1_c2{
+    width: 13rem;
+    height: 13rem;
+    background-image: url("https://scontent-lcy1-2.cdninstagram.com/v/t51.29350-15/294678802_445577350798521_8166749114476186886_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=scRnUJTdVcUAX89QBfw&_nc_ht=scontent-lcy1-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9DdHGNuQTtWAToIegLzn_GYX5RZHgH6rimW3nzGxFdtg&oe=62DF8629");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.background_img2_c2{
+    width: 13rem;
+    height: 13rem;
+    background-image: url("https://scontent-lcy1-2.cdninstagram.com/v/t51.29350-15/294889887_3140989162877998_1370863029146885785_n.webp?stp=dst-jpg&_nc_cat=100&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=4fSUjRf3bc4AX-JCSrg&_nc_ht=scontent-lcy1-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9q7xA89jK258nhatzszGnC55PGAURnJ3fnp-GlPANdxg&oe=62E16C17");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background_img3_c2{
+    width: 13rem;
+    height: 13rem;
+    background-image: url("https://scontent-lcy1-2.cdninstagram.com/v/t51.29350-15/294064572_339873971678596_8768394305868338060_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=vMaDjZF7TlYAX8zKgXe&_nc_ht=scontent-lcy1-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT8EcFf6eQzdJ2baGFrFLw3vTeOkkISPoZAQnCe_9Xj8pg&oe=62E0F5A6");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background_img4_c2{
+    width: 13rem;
+    height: 13rem;
+    background-image: url("https://scontent-lcy1-2.cdninstagram.com/v/t51.29350-15/292956031_459850935573290_3993948735718847292_n.webp?stp=dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=eWNPSwV7ey0AX93jfRr&_nc_ht=scontent-lcy1-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT-9btG9O-kkw-v6qXd4EYkAdDYh2mvnOoVdiVQoW7f2tA&oe=62E067F9");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Everyday_inner_c2_mid_imgae{
+    margin-left: 1.5rem;
+    width: 24rem;
+    background-image: url("https://scontent-lcy1-2.cdninstagram.com/v/t51.29350-15/294100519_403671298493866_4038032759178558087_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=GgjqnjLpEYEAX9GDvKY&_nc_ht=scontent-lcy1-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT_qOyj5jmVX_tPJo7erY24zWrOXlL-Gg27tVjG5WApeGA&oe=62DF7F7D");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.Everyday_inner_c2_right_imgae1{
+    width: 13rem;
+    height: 13rem;
+    background-image: url("https://scontent-lcy1-2.cdninstagram.com/v/t51.29350-15/294258232_139968855069699_1969182940847459670_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=mcV7YrHQi4YAX_IGiqR&_nc_ht=scontent-lcy1-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT8ceeyFSDi2EB8i-mh8QBNmfAyRTXYg-P7dRWd7pnmIxw&oe=62DFF31D");
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.Everyday_inner_c2_right_imgae2{
+    width: 13rem;
+    height: 13rem;
+    background-image: url("https://scontent-lcy1-2.cdninstagram.com/v/t51.29350-15/294342228_193090173075026_5517308765770428405_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=fmh771vDqs0AX-ogrFa&_nc_ht=scontent-lcy1-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT951dJk9YiLnIVTbpFYjRoQdcrv3pT6iy9yO4QS2kfSHw&oe=62E0BF6A");
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.Everyday_inner_c2_right_imgae3{
+    width: 13rem;
+    height: 13rem;
+    background-image: url("https://scontent-lcy1-2.cdninstagram.com/v/t51.29350-15/292971065_382831060418300_4575975943779421917_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=Yili8rQaRO4AX9Sd3uI&_nc_ht=scontent-lcy1-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9cMqj4RDkEeeixC4IFdMYSw6z1wVxt6DkT_KVcK9IvGg&oe=62E15416");
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.Everyday_inner_c2_right_imgae4{
+    width: 13rem;
+    height: 13rem;
+    background-image: url("https://scontent-lcy1-2.cdninstagram.com/v/t51.29350-15/293030626_749431893178440_7176882608738470680_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=rTdBvhhFTf4AX-UBoGi&_nc_ht=scontent-lcy1-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT_ym5aVICslLgBH8qt-RjH2cR9bdBFD_CIKeV8an78Bhg&oe=62DFD5E2");
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.background_text_blur , .background_text_mid_blur{
+   color: rgba(0,0,0,0);
+   height: 13rem;
+}
+.background_text_blur:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 13rem;
+    text-align: center;
+    font-size: 13px;
+    padding: 2rem;
+}
+
+.background_text_mid_blur:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 27rem;
+    text-align: center;
+    font-size: 13px;
+    padding: 2rem; 
+}
+
+.Everyday_inner_c1{
+    width: 40rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: auto;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+}
+.Everyday_inner_c2{
+    margin-bottom: 10rem;
+}
