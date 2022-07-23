@@ -218,6 +218,31 @@
             "id":32,
             "img":"https://cdn.shopify.com/s/files/1/0153/8863/files/V-moda-Logo-2022.svg?v=1651666403"
         }
+    ],
+    "minBrandsTodays":[
+        {
+         "id":1,
+         "minBrandImg":"https://cdn.shopify.com/s/files/1/0153/8863/files/Artboard-2_150x.png?v=1645786582"
+        },
+        {
+            "id":2,
+            "minBrandImg":"https://cdn.shopify.com/s/files/1/0153/8863/files/Artboard_6_150x.png?v=1645786123"
+        },
+        {
+            "id":3,
+            "minBrandImg":"https://cdn.shopify.com/s/files/1/0153/8863/files/Artboard_4_150x.png?v=1645786084"
+        },
+        {
+            "id":4,
+            "minBrandImg":"https://cdn.shopify.com/s/files/1/0153/8863/files/Artboard_1_150x.png?v=1645785899"
+        },
+        {
+            "id":5,
+            "minBrandImg":"https://cdn.shopify.com/s/files/1/0153/8863/files/Artboard_3_150x.png?v=1645785993"
+        },
+        {
+            "id":6,
+            "minBrandImg":"https://cdn.shopify.com/s/files/1/0153/8863/files/Artboard_5_62eaa197-8076-44be-aa02-b17c60c22246_150x.png?v=1645786064"
+        }
     ]
-
     }

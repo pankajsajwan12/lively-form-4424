@@ -1,0 +1,248 @@
+{
+    "product":[
+        {
+            "id":1,
+            "productImage":"https://cdn.shopify.com/s/files/1/0153/8863/products/HiFiMAN-HE400SE-01_400x.jpg?v=1614231957",
+            "mrp":"16,999",
+            "sellingPrice":"10,999",
+            "SalePrice":"9999",
+            "productCode":"HIFIMAN - HE400SE",
+            "prductName":"Planar Magnetic Open Backs"
+        },
+        {
+            "id":2,
+            "productImage":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Meze-99-Neo-1160-1160-2_400x.jpg?v=1591944478",
+            "mrp":"19,999",
+            "sellingPrice":"15,999",
+            "SalePrice":"14499",
+            "productCode":"MEZE - 99 NEO",
+            "prductName":"Closed-Back Headphone"
+        },
+        {
+            "id":3,
+            "productImage":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-DT-880-Pro-1160-1160-1_400x.jpg?v=1599208178",
+            "mrp":"24,475",
+            "sellingPrice":"15,999",
+            "SalePrice":"14999",
+            "prductName":"Semi Open-Back Studio Headphone",
+            "productCode":"BEYERDYNAMIC - DT 880 PRO"
+        },
+        {
+            "id":4,
+            "productImage":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-V-MODA-M-200-1160-1160_400x.jpg?v=1588002899",
+            "mrp":"29,990",
+            "sellingPrice":"24,990",
+            "SalePrice":"21999",
+            "prductName":"Closed-Back Studio Headphones",
+            "productCode":"V-MODA - M-200"
+        },
+        {
+            "id":5,
+            "productImage":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-HiFiMAN-Edition-XS-1160-1160-04_400x.jpg?v=1641460416",
+            "mrp":"",
+            "sellingPrice":"39,999",
+            "SalePrice":"36,999",
+            "prductCode":"HIFIMAN - EDITION XS",
+            "productName":"Planar Magnetic Open-Backs With Stealth Magnets"
+        },
+        {
+            "id":6,
+            "productImage":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-grado-SR60x-01_400x.jpg?v=1648039536",
+            "mrp":"11,999",
+            "sellingPrice":"9,999",
+            "SalePrice":"8999",
+            "prductName":"Open-Back Headphone",
+            "productCode":"GRADO - SR60X"
+        },
+        {
+            "id":7,
+            "productImage":"https://cdn.shopify.com/s/files/1/0153/8863/products/beyerdynamic-dt-770-pro-headphone-zone-13980464185407_400x.jpg?v=1579662488",
+            "mrp":"17,050",
+            "sellingPrice":null,
+            "SalePrice":"10,999",
+            "prductName":"Closed-Back Studio Headphone",
+            "productCode":"BEYERDYNAMIC - DT 770 PRO"
+        },
+        {
+            "id":8,
+            "productImage":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Meze-99-Classics-gold-1160-1160-2_400x.jpg?v=1591901373",
+            "mrp":" 30,999",
+            "sellingPrice":null,
+            "SalePrice":"28999",
+            "prductName":"Closed-Back Headphone",
+            "productCode":"MEZE - 99 CLASSICS"
+        },
+        {
+            "id":9,
+            "productImage":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-HiFiMAN-Sundara-1160-1160-2_400x.jpg?v=1592332661",
+            "mrp":"29,999",
+            "sellingPrice":null,
+            "SalePrice":"24999",
+            "prductName":"Planar Magnetic Open-Backs",
+            "productCode":"HIFIMAN - SUNDARA (2021)"
+        },
+        {
+            "id":10,
+            "productImage":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Audio-technica-m50x-1160-1160-Black_400x.jpg?v=1590592477",
+            "mrp":"20,246",
+            "sellingPrice":null,
+            "SalePrice":"11199",
+            "prductName":"Closed-Back Studio Headphone",
+            "productCode":"AUDIO-TECHNICA - ATH-M50X"
+        },
+        {
+            "id":11,
+            "productImage":"https://cdn.shopify.com/s/files/1/0153/8863/products/sennheiser-hd-569-headphone-zone-29093551111_400x.jpg?v=1579780219",
+            "mrp":"12,990",
+            "sellingPrice":null,
+            "SalePrice":"8990",
+            "prductName":"Semi Open-Back Headphone",
+            "productCode":"SENNHEISER - HD 569"
+        },
+        {
+            "id":12,
+            "productImage":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-dt-990-pro-1160-1160-5_400x.jpg?v=1598946254",
+            "mrp":"16,489",
+            "sellingPrice":null,
+            "SalePrice":" 13999",
+            "prductName":"Open-Back Studio Headphone",
+            "productCode":"BEYERDYNAMIC - DT 990 PRO"
+        },
+        {
+            "id":13,
+            "productImage":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-HiFiMAN-Deva-Pro-01_400x.jpg?v=1651135982",
+            "mrp":"19,999",
+            "sellingPrice":"",
+            "SalePrice":" 16999",
+            "prductName":"Planar Magnetic Open-Backs",
+            "productCode":"HIFIMAN - DEVA PRO (WIRED)"
+        },
+        {
+            "id":14,
+            "productImage":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-V-MODA-Crossfade-LP2-03_400x.jpg?v=1651668263",
+            "mrp":"12,990",
+            "sellingPrice":null,
+            "SalePrice":"10999",
+            "prductName":"Wired Closed-Back DJ Headphones",
+            "productCode":"V-MODA - CROSSFADE LP2"
+        },
+        {
+            "id":15,
+            "productImage":"https://cdn.shopify.com/s/files/1/0153/8863/products/v-moda-crossfade-m-100-master-headphone-zone-11985642913855_400x.jpg?v=1581077461",
+            "mrp":"29,990",
+            "sellingPrice":null,
+            "SalePrice":"21990",
+            "prductName":"Closed-Back Studio Headphones",
+            "productCode":"V-MODA - CROSSFADE M-100 MASTER"
+        },
+        {
+            "id":16,
+            "productImage":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Grado-SR80x-02_400x.jpg?v=1647928592",
+            "mrp":"13,999",
+            "sellingPrice":null,
+            "SalePrice":"11999",
+            "prductName":"Open-Back Headphone",
+            "productCode":"GRADO - SR80X"
+        },
+        {
+            "id":17,
+            "productImage":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Grado-SR125x-02_400x.jpg?v=1647947259",
+            "mrp":"18,999",
+            "sellingPrice":null,
+            "SalePrice":"15999",
+            "prductName":"Open-Back Headphone",
+            "productCode":"GRADO - SR125X"
+        },
+        {
+            "id":18,
+            "productImage":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Grado-SR325x-7_400x.jpg?v=1648446832",
+            "mrp":"32,999",
+            "sellingPrice":null,
+            "SalePrice":"29999",
+            "prductName":"Open-Back Headphone",
+            "productCode":"GRADO - SR325X"
+        },
+        {
+            "id":19,
+            "productImage":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Audio-technica-m20x-1160-1160-1_400x.jpg?v=1590482291",
+            "mrp":" 7,788",
+            "sellingPrice":null,
+            "SalePrice":"3999",
+            "prductName":"Closed-Back Studio Headphone",
+            "productCode":"AUDIO-TECHNICA - ATH-M20X"
+        },
+        {
+            "id":20,
+            "productImage":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-audio-technica-m30x-1160-1160-1_400x.jpg?v=1590560556",
+            "mrp":"10,582",
+            "sellingPrice":null,
+            "SalePrice":"5999",
+            "prductCode":"AUDIO-TECHNICA - ATH-M30X",
+            "productName":"Closed-Back Studio Headphone"
+        },
+        {
+            "id":21,
+            "productImage":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-audio-technica-m40x-1160-1160-1_400x.jpg?v=1590564160",
+            "mrp":"15,030",
+            "sellingPrice":null,
+            "SalePrice":"8499",
+            "prductCode":"AUDIO-TECHNICA - ATH-M40X",
+            "productName":"Closed-Back Studio Headphone"
+        },
+        {
+            "id":22,
+            "productImage":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Shure-SRH440-1160-1160-8_2521476a-495d-4c4e-bad8-8d11f6764779_400x.jpg?v=1598363919",
+            "mrp":"10,625",
+            "sellingPrice":null,
+            "SalePrice":" 9999",
+            "prductCode":"SHURE - SRH440",
+            "productName":"Closed-Back Studio Headphone"
+        },
+        {
+            "id":23,
+            "productImage":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Shure-SRH240A-1160-1160-3_400x.jpg?v=1591624904",
+            "mrp":"8,500",
+            "sellingPrice":null,
+            "SalePrice":"5499",
+            "prductCode":"SHURE - SRH240A",
+            "productName":"Closed-Back Studio Headphone"
+        },
+        {
+            "id":24,
+            "productImage":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Monolith-M1060C-1_400x.jpg?v=1649665887",
+            "mrp":"37,999",
+            "sellingPrice":null,
+            "SalePrice":"33999",
+            "prductName":"Planar Magnetic Closed Backs",
+            "productCode":"MONOPRICE - MONOLITH M1060C"
+        },
+        {
+            "id":25,
+            "productImage":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Monolith-M565C-01_400x.jpg?v=1649664941",
+            "mrp":"24,999",
+            "sellingPrice":null,
+            "SalePrice":"21999",
+            "prductName":"Planar Magnetic Closed Backs",
+            "productCode":"MONOPRICE - MONOLITH M565C"
+        },
+        {
+            "id":26,
+            "productImage":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Monolith-M1060-02_400x.jpg?v=1649751491",
+            "mrp":"34,999",
+            "sellingPrice":null,
+            "SalePrice":"29999",
+            "prductName":"Planar Magnetic Closed Backs",
+            "productCode":"MONOPRICE - MONOLITH M1060"
+        },
+        {
+            "id":27,
+            "productImage":"https://cdn.shopify.com/s/files/1/0153/8863/products/K710-Pro-New-8_700x.jpg?v=1595857116",
+            "mrp":"33,161",
+            "sellingPrice":null,
+            "SalePrice":"19999",
+            "prductName":"Open-Back Studio Headphone",
+            "productCode":"AKG - K712 PRO"
+        }
+        
+    ]
+}

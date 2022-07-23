@@ -1,5 +1,7 @@
 .Login_main{
     width: 100%;
+    top: 6rem;
+    position: relative;
 }
 .social_media_icons_button{
     display: flex;
@@ -33,6 +35,7 @@
     width: 100%;
     text-align: center;
     margin-bottom: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 .Login_text{
     text-align: center;
