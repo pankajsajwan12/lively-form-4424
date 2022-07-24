@@ -33,10 +33,10 @@ const HomeAudioPhile = () => {
             <div>
                 <div className="Like_you_div">
                     <div className="home-mid_text">LIKE YOU, WE LOVE MUSIC...</div>
-                    <div className="p_div">
-                      <p className="p_text">And we believe a Headphone is more than just an instrument for sund.</p>
-                       <p className="p_text">It's the key to a mind-blowing moment of emotion,bringing you closer to your favourite artist,and yourself.</p>
-                       <p className="p_text">We've curated the world's finest headphones & earphones to help you discover the riffs, percussions, basslines and solos that were always <br/>there but never heard.</p> 
+                    <div className="HomeAudioPhile_p_div">
+                      <p className="HomeAudioPhile_p_div_text">And we believe a Headphone is more than just an instrument for sund.</p>
+                       <p className="HomeAudioPhile_p_div_text">It's the key to a mind-blowing moment of emotion,bringing you closer to your favourite artist,and yourself.</p>
+                       <p className="HomeAudioPhile_p_div_text">We've curated the world's finest headphones & earphones to help you discover the riffs, percussions, basslines and solos that were always <br/>there but never heard.</p> 
                     </div>
                 </div>
             </div>

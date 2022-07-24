@@ -2,13 +2,13 @@ import React from 'react'
 
 const HeadphoneExperiences = () => {
   return (
-    <div className="Headphone_zone_main_div">
-      <div className="Headphone_zone_sec_div">
-          <div className="Headphone_zone_Img_div">
-             <img src="https://cdn.shopify.com/s/files/1/0153/8863/files/exp-studio-image-Vinette_600x.jpg?v=1645004055" alt="image" width="500" height="500" /> 
+    <div className="HeadphoneExperiences_zone_main_div">
+      <div className="HeadphoneExperiences_zone_sec_div">
+          <div className="HeadphoneExperiences_zone_Img_div">
+             <img src="https://cdn.shopify.com/s/files/1/0153/8863/files/exp-studio-image-Vinette_600x.jpg?v=1645004055" alt="image" /> 
           </div>
-          <div className="Headphone_zone_Text_div">
-              <div className="Headphone_zone_text_div_text">
+          <div className="HeadphoneExperiences_zone_Text_div">
+              <div className="HeadphoneExperiences_zone_text_div_text">
                 <div className="introducing">INTRODUCING</div>
                 <div className="zone">HEADPHONE ZONE EXPERIENCES</div>
                 <div className="para">
