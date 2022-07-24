@@ -15,7 +15,7 @@ const HeadphoneZoneMinBrands = () => {
                     </h1>
                 </div>            
             </div>
-            <div className="Headphone_zone_sec_div">
+            <div className="Headphone_zone_minBarand_sec_div">
                 {
                     x.map((item) => (
                         <div key={item.id}>
