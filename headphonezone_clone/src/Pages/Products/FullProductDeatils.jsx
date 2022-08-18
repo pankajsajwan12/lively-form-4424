@@ -1,19 +1,26 @@
+import React, { useEffect, useState } from 'react'
+import data from '../../Data/Product.json'
+import {Link} from 'react-router-dom'
 
-import React from 'react'
+const FullProductDeatils = () => {
+  const [pro, setPro] = useState([]);
+  useEffect(() => {
+    setPro(data.product)
+  })
+  
 
-const FullProductDeatils = ({data}) => {
-  console.log(data,"useNavigate");
+  console.log(pro,"pro");
   return (
     <div style={{paddingTop:'6rem'}}>
-      hello my name is pankaj singh sajwan
-       {/* <img src={data.productImage} alt={data.productName} />
-       <div>
-           <p>{data.mrp}</p>
-           <p>{data.sellingPrice ? data.sellingPrice : null}</p>
-           <p>{data.salePrice}</p>
-           <p>{data.productCode}</p>
-           <p>{data.productName}</p>
-      </div> */}
+       <h1>User Single Page</h1>
+      <h3>
+        {" "}
+        Name: {pro.prductName}
+      </h3>
+      <img src={pro.productImage} alt={pro.prductName}  width="100"  height="100npm "/>
+      <div>
+        <Link to="/Deals">Go back</Link>
+      </div>
     </div>
   )
 }

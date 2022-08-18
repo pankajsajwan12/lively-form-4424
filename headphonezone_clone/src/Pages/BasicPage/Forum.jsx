@@ -2,7 +2,7 @@ import React from 'react'
 
 const Forum = () => {
   return (
-    <div>Forum</div>
+    <div style={{paddingTop:"5rem"}}>Forum</div>
   )
 }
 

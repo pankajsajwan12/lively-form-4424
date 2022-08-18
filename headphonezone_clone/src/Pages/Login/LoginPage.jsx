@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {CgFacebook } from 'react-icons/cg';
 import {FcGoogle } from 'react-icons/fc';
 import {TbBrandTwitter } from 'react-icons/tb';
-import { Link } from 'react-router-dom';
+import { Link,useNavigate } from 'react-router-dom';
 import './Login.css'
 import {
     FormControl,
@@ -15,8 +15,32 @@ import {
 from '@chakra-ui/react';
 
 const LoginPage = () => {
+  const navigate = useNavigate();
     const [input, setInput] = useState('')
-    const handleInputChange = (e) => setInput(e.target.value)
+    const handleInputChange = (e) =>{
+      const {name , value} =e.target
+      setInput({...input,
+       [name]:value
+      })
+    } 
+
+    const checkLogin = (input) => {
+      console.log("input",input)
+      fetch("http://localhost:1212/posts")
+     .then((res) => res.json())
+     .then((d) => {
+       console.log("data",d);
+       d.map((item) => {
+        if(input.email == item.email) {
+          console.log("success");
+          navigate("/")
+        } else {
+          console.log("unsuccess");
+        }
+       })
+      
+     })
+    }
     const isError = input === ''
   return (
     <div className="Login_main">
@@ -56,7 +80,7 @@ const LoginPage = () => {
                         <FormLabel mt="0.5rem">Email</FormLabel>
                         <Input
                             type='email'
-                            value={input}
+                            name="email"
                             onChange={handleInputChange}
                             placeholder="Enter your email"
                             borderRadius="1rem"
@@ -64,15 +88,15 @@ const LoginPage = () => {
                         />
                         <FormLabel mt="0.4rem">Password</FormLabel>
                         <Input
-                            type='email'
-                            value={input}
+                            type='password'
+                            name="password"
                             onChange={handleInputChange}
                             placeholder="Enter you password"
                             borderRadius="1rem"
                         />   
                     </FormControl>  
                     <Button mt="2rem" w="100%" mb="1rem" bg="blue.500" color="white"
-                    borderRadius="1rem">
+                    borderRadius="1rem" onClick={() =>checkLogin(input)}>
                         LOGIN
                     </Button>
 
