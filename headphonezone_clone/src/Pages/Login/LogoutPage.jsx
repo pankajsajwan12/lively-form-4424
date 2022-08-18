@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {CgFacebook } from 'react-icons/cg';
 import {FcGoogle } from 'react-icons/fc';
 import {TbBrandTwitter } from 'react-icons/tb';
-import { Link } from 'react-router-dom';
+import { Link ,useNavigate} from 'react-router-dom';
 import './Login.css'
 import {
     FormControl,
@@ -15,8 +15,31 @@ import {
 from '@chakra-ui/react';
 
 const LogoutPage = () => {
+  const navigate = useNavigate();
     const [input, setInput] = useState('')
-    const handleInputChange = (e) => setInput(e.target.value)
+    const handleInputChange = (e) =>{
+      const {name, value} = e.target
+      setInput({
+        ...input,
+        [name]:value,
+      })
+    } 
+
+    const handleSubmit = () => {
+     fetch("http://localhost:1212/posts", {
+       method:"POST",
+       headers: {
+         "content-type":"application/json"
+       },
+       body:JSON.stringify(input),
+     })
+     .then((res) => res.json())
+     .then((d) => {
+       console.log(d);
+       alert("Succsess Login")
+       navigate("/")
+     })
+    }
     const isError = input === ''
   return (
     <div className="Login_main">
@@ -56,7 +79,7 @@ const LogoutPage = () => {
                         <Input
                             type='text'
                             mt="1rem"
-                            value={input}
+                            name="f_name"
                             onChange={handleInputChange}
                             placeholder="First name"
                             borderRadius="1rem"
@@ -65,7 +88,7 @@ const LogoutPage = () => {
                         <Input
                             type='text'
                             mt="1rem"
-                            value={input}
+                            name="l_name"
                             onChange={handleInputChange}
                             placeholder="Last name"
                             borderRadius="1rem"
@@ -73,7 +96,7 @@ const LogoutPage = () => {
                         <Input
                             type='email'
                             mt="1rem"
-                            value={input}
+                            name="email"
                             onChange={handleInputChange}
                             placeholder="E-mail"
                             borderRadius="1rem"
@@ -81,14 +104,14 @@ const LogoutPage = () => {
                         <Input
                             type='paassowrd'
                             mt="1rem"
-                            value={input}
+                            name="password"
                             onChange={handleInputChange}
                             placeholder="Password"
                             borderRadius="1rem"
                         /> 
                     </FormControl>  
                     <Button mt="2rem" w="100%" mb="1rem" bg="blue.500" color="white"
-                    borderRadius="1rem">
+                    borderRadius="1rem" onClick={handleSubmit}>
                         CREATE ACCOUNT
                     </Button>
 

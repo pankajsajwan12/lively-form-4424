@@ -2,7 +2,7 @@ import React from 'react'
 
 const Catergories = () => {
   return (
-    <div>Catergories</div>
+    <div style={{paddingTop:'5rem'}}>Catergories</div>
   )
 }
 

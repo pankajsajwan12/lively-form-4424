@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "f_name": "Pankaj",
+      "l_name": "singh",
+      "email": "pankajsinghsajwan99@gmail.com",
+      "password": "12345"
+    },
+    {
+      "f_name": "Bhai",
+      "l_name": "shahad",
+      "email": "bhaiShahad@gmail.com",
+      "password": "85213",
+      "id": 2
+    },
+    {
+      "f_name": "pawan",
+      "l_name": "kumar",
+      "email": "pawan@gmail.com",
+      "password": "121212",
+      "id": 3
+    },
+    {
+      "f_name": "pankaj singh",
+      "l_name": "sajwan",
+      "email": "pankajsinghsajwan@gmail.coom",
+      "password": "14789",
+      "id": 4
+    },
+    {
+      "f_name": "pankaj",
+      "l_name": "singh",
+      "email": "pankajsingsajwan12@gmail.com",
+      "password": "123456789",
+      "id": 5
+    }
+  ]
+}

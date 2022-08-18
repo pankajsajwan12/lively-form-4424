@@ -11,6 +11,7 @@ const SingleProduct = ({
     productName,
     id
 }) => {
+  console.log(productName)
     const navigate = useNavigate();
     const handleClick = () => {
         setData({...data,productImage,
@@ -26,16 +27,17 @@ const SingleProduct = ({
     console.log("data",data);
   return (
       <>
-    <div onClick={handleClick}>
+    <div onClick={handleClick} style={{width:"14rem", height:'25rem', border:'1px solid red',margin:'auto',marginTop:'1rem'}} >
         <div>
         <img src={productImage} alt={productName} />
-        <div>
-            <p>{mrp}</p>
-            <p>{sellingPrice ? sellingPrice : null}</p>
-            <p>{salePrice}</p>
-            <p>{productCode}</p>
-            <p>{productName}</p>
+        <div key={id}>
+            <p style={{textAlign:'center'}}>MRP :  ₹ {mrp}</p>
+            <p >{sellingPrice ? (<p style={{textAlign:'center'}}>Selling ₹ {sellingPrice}</p>) : (<p></p>)}</p>
+            <p style={{textAlign:'center'}}>Sale Price :₹{salePrice}</p>
+            <p style={{textAlign:'center'}}>{productCode}</p>
+            <p style={{textAlign:'center'}}>{productName}</p>
         </div> 
+        <Link to={`/Deals/fullProductDeatils/${id}`}>show more data</Link>
       </div>
     </div>
     {/* <div><FullProductDeatils data={data}/></div> */}
